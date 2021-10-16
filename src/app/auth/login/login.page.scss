@@ -1,0 +1,69 @@
+.logo{
+  align-items: center;
+  width: 55%;
+  display: block;
+  margin: auto;
+}
+
+ion-header{
+  position: absolute;
+}
+
+ion-toolbar{
+  --ion-background-color: transparent;
+  --opacity: 0;
+}
+
+ion-content{
+  --ion-background-color: #9DDFCC !important;
+  // E1EAF9
+  font-family: "AbeeZee";
+}
+
+ion-card{
+  --ion-background-color: transparent;
+  box-shadow: none !important;
+}
+
+ion-label{
+  font-family: 'AbeeZee' !important;
+}
+
+ion-button{
+  font-family: "AbeeZee";
+  color: white;
+  --background: #9DD2DF;
+}
+
+.infoBtn{
+  font-size: 2rem;
+  position: absolute !important;
+  right: 6% !important;
+  bottom: 3% !important;
+}
+
+.ion-padding{
+  --ion-background-color: #9DDFCC;
+  font-family: 'AbeeZee' !important;
+}
+
+ion-input{
+  --background: white;
+  border-radius: 10px;
+  font-family: "AbeeZee";
+}
+
+div{
+  padding: 20px auto;
+  text-align: center;
+  font-family: "AbeeZee" !important;
+}
+
+a{
+  color: white;
+}
+
+#text{
+  font-family: "AbeeZee";
+  padding-top: 45px !important;
+}

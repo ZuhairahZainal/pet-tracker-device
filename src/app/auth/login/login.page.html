@@ -1,0 +1,39 @@
+<ion-header></ion-header>
+
+<ion-content>
+  <ion-card class="ion-no-margin">
+    <ion-img src="./assets/loginHeader.png"></ion-img>
+
+    <ion-card-content>
+      <ion-list>
+        <ion-item id="text" lines="none">
+          <ion-label>Email Address</ion-label>
+        </ion-item>
+
+        <ion-item lines="none">
+          <ion-input type="text" [(ngModel)]="email" placeholder="Enter your Email Address"></ion-input>
+        </ion-item>
+
+        <div>
+      </div>
+
+
+        <ion-item id="text" lines="none">
+          <ion-label>Password</ion-label>
+        </ion-item>
+
+        <ion-item lines="none">
+          <ion-input type="password" [(ngModel)]="password" placeholder="Enter your password"></ion-input>
+        </ion-item>
+      </ion-list>
+
+      <div>
+    </div>
+
+    <div class="ion-text-center">
+      <ion-button class="ion-margin" shape="round" (click)="login()">Login</ion-button>
+    </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+

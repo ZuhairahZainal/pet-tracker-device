@@ -6,12 +6,14 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
+import { QRCodeModule } from 'angular2-qrcode';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    QRCodeModule,
     HomePageRoutingModule
   ],
   declarations: [HomePage]
